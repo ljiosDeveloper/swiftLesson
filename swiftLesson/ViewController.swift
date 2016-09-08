@@ -25,12 +25,12 @@ class ViewController: UIViewController {
         let str = "金毛狗狗好漂亮"
         print(str)
         
-        let a = "金毛hjhjgugyuguygg"
-        let b = "好hggt啊"///带引号的为字符串
+        let a = "金毛"
+        let b = "好漂亮啊"///带引号的为字符串
         let c = a + b
         print(c)
         
-        let en = 122555///不带引号的默认为数字
+        let en = 12///不带引号的默认为数字
         let al = 14
         
         print(al)
