@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-    /**
+    var aview : UILabel?
+    
+   /**
      *  viewDidLoad
      */
     override func viewDidLoad() {
@@ -63,16 +65,28 @@ class ViewController: UIViewController {
         
         print(greet("李杰", day: "星期五"))
         
-       let smallView :UIView = UIView.init(frame: CGRectMake(0, 0, UIScreen .mainScreen().bounds.size.width, UIScreen .mainScreen().bounds.size.height))
+       let smallView : UIView = UIView.init(frame: CGRectMake(0, 0, UIScreen .mainScreen().bounds.size.width, UIScreen .mainScreen().bounds.size.height))
+        
+        smallView.backgroundColor = UIColor.whiteColor()
+        
+        self.view .addSubview(smallView)
         
         
+        let sex : Bool = false
+        if sex {
+            print("男")
+        } else {
+          print("美女")
+        }
+        
+        
+    self.aview = UILabel.init()
+    self.aview?.text = "212333"
+        self.aview?.frame = CGRectMake(0, 0,UIScreen .mainScreen().bounds.size.width , 44)
+    smallView .addSubview(self.aview!)
+    self.aview?.backgroundColor = UIColor.orangeColor()
+    
   
-        
-        
     }
-
-    
-    
-    
 }
 
