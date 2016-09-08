@@ -33,11 +33,11 @@ class ViewController: UIViewController {
         
         print(al)
         print(en)
-        // 若初始化时未提供足够信息（没有初始值），可以在变量后面指定类型，用冒号隔开
+        // 若初始化时未提供足够信息（没有初始值,可以在变量后面指定类型,用冒号隔开
         let stra: String = "nil"
          print(stra)
         /**
-        *  字典和数组的创建以及初始化
+         *  字典和数组的创建以及初始化
          */
        //数组初始化
         var srr = []
@@ -46,7 +46,33 @@ class ViewController: UIViewController {
        
         var dict = [:]
         dict = ["1":"hahha"]
-      // 为了防止类型信息被更改，空数组列用[]，空字典用[:]进行初始化
+        print(dict)
+        
+        let  u = "ahha";
+        let y :String! = "ahhhhh"
+        let  cc = "\(u + y)"
+        print(cc)
+        // 为了防止类型信息被更改，空数组列用[]，空字典用[:]进行初始化
+        ///两个参数  返回值是string类型
+        func greet(name:String,day :String)->String {
+            let da : String =  "我是\(name),今天星期\(day)"
+            return da
+        }
+        
+        greet("李杰", day: "星期五")
+        
+        print(greet("李杰", day: "星期五"))
+        
+       let smallView :UIView = UIView.init(frame: CGRectMake(0, 0, UIScreen .mainScreen().bounds.size.width, UIScreen .mainScreen().bounds.size.height))
+        
+        
+  
+        
+        
     }
+
+    
+    
+    
 }
 
