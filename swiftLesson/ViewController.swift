@@ -22,11 +22,17 @@ class ViewController: UIViewController {
         let wid = 54
         print(wid)
         
-        let str = "金毛狗狗好漂亮"
+        let str = "就打了电脑卡了我an.d你开完大路口等我 "
         print(str)
         
+        
+        
+        
+        
+        
+        
         let a = "金毛hjhjgugyuguygg"
-        let b = "好hggt啊"///带引号的为字符串
+        let b = "好hghjuukyuyuyiugt啊"///带引号的为字符串
         let c = a + b
         print(c)
         
