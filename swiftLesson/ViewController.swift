@@ -79,7 +79,7 @@ class ViewController: UIViewController {
           print("美女")
         }
         
-        
+    print("哈哈哈哈哈哈哈哈哈哈")
     self.aview = UILabel.init()
     self.aview?.text = "212333"
         self.aview?.frame = CGRectMake(0, 0,UIScreen .mainScreen().bounds.size.width , 44)
