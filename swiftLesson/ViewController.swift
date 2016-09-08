@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let wid = 54
         print(wid)
         
-        let str = "金毛狗狗hhghghhhnhhhjhghhhg好漂亮"
+        let str = "就打了电脑卡了我an.d你开完大路口等我 "
         print(str)
         
         
