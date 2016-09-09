@@ -38,6 +38,15 @@ class ViewController: UIViewController {
         // 若初始化时未提供足够信息（没有初始值,可以在变量后面指定类型,用冒号隔开
         let stra: String = "nil"
          print(stra)
+        
+        
+        
+        print("今天是2016年9月9号星期五");
+        print("今天是2016年9月9号星期五");
+        print("今天是2016年9月9号星期五");
+        print("今天是2016年9月9号星期五");print("今天是2016年9月9号星期五");
+        
+        
         /**
          *  字典和数组的创建以及初始化
          */
