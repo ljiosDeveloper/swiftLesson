@@ -22,11 +22,14 @@ class ViewController: UIViewController {
         let wid = 54
         print(wid)
         
-        let str = "金毛狗狗好漂亮"
+        let str = "就打了电脑卡了我an.d你开完大路口等我 "
         print(str)
         
-        let a = "金毛"
-        let b = "好漂亮啊"///带引号的为字符串
+        
+        
+        let a = "金毛hjhjgugyuguygg"
+        let b = "好hghjuukyuyuyiugt啊"///带引号的为字符串
+
         let c = a + b
         print(c)
         
@@ -86,7 +89,25 @@ class ViewController: UIViewController {
     smallView .addSubview(self.aview!)
     self.aview?.backgroundColor = UIColor.orangeColor()
     
-  
+        
+        let interestingNumbers = [
+            "Prime": [2, 3, 5, 7, 11, 13],
+            "Fibonacci": [1, 1, 2, 3, 5, 8],
+            "Square": [1, 4, 9, 16, 25],
+            ]
+        
+        var largest = 0
+        for (kind, numbers) in interestingNumbers {
+            for number in numbers {
+                if number > largest {
+                    largest = number
+                }
+            }
+        }
+        print(largest)
+        
+        
+        
+        
     }
 }
-
