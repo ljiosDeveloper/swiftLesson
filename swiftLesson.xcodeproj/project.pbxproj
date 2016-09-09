@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846691A51D824D7800B47F40 /* xinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846691A41D824D7800B47F40 /* xinVC.swift */; };
 		FB850A611D7F960D004BA713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB850A601D7F960D004BA713 /* AppDelegate.swift */; };
 		FB850A631D7F960D004BA713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB850A621D7F960D004BA713 /* ViewController.swift */; };
 		FB850A661D7F960D004BA713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB850A641D7F960D004BA713 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846691A41D824D7800B47F40 /* xinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xinVC.swift; sourceTree = "<group>"; };
 		FB850A5D1D7F960D004BA713 /* swiftLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB850A601D7F960D004BA713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB850A621D7F960D004BA713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				FB850A601D7F960D004BA713 /* AppDelegate.swift */,
 				FB850A621D7F960D004BA713 /* ViewController.swift */,
+				846691A41D824D7800B47F40 /* xinVC.swift */,
 				FB850A641D7F960D004BA713 /* Main.storyboard */,
 				FB850A671D7F960D004BA713 /* Assets.xcassets */,
 				FB850A691D7F960D004BA713 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846691A51D824D7800B47F40 /* xinVC.swift in Sources */,
 				FB850A631D7F960D004BA713 /* ViewController.swift in Sources */,
 				FB850A611D7F960D004BA713 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				FB850A871D7F960D004BA713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB850A881D7F960D004BA713 /* Build configuration list for PBXNativeTarget "swiftLessonTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				FB850A8A1D7F960D004BA713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB850A8B1D7F960D004BA713 /* Build configuration list for PBXNativeTarget "swiftLessonUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				FB850A8D1D7F960D004BA713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
