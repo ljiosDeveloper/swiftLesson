@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		846691A51D824D7800B47F40 /* xinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846691A41D824D7800B47F40 /* xinVC.swift */; };
+		846691A71D8250F100B47F40 /* okViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846691A61D8250F100B47F40 /* okViewController.swift */; };
 		FB850A611D7F960D004BA713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB850A601D7F960D004BA713 /* AppDelegate.swift */; };
 		FB850A631D7F960D004BA713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB850A621D7F960D004BA713 /* ViewController.swift */; };
 		FB850A661D7F960D004BA713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB850A641D7F960D004BA713 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		846691A41D824D7800B47F40 /* xinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xinVC.swift; sourceTree = "<group>"; };
+		846691A61D8250F100B47F40 /* okViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = okViewController.swift; sourceTree = "<group>"; };
 		FB850A5D1D7F960D004BA713 /* swiftLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB850A601D7F960D004BA713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB850A621D7F960D004BA713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				FB850A601D7F960D004BA713 /* AppDelegate.swift */,
 				FB850A621D7F960D004BA713 /* ViewController.swift */,
 				846691A41D824D7800B47F40 /* xinVC.swift */,
+				846691A61D8250F100B47F40 /* okViewController.swift */,
 				FB850A641D7F960D004BA713 /* Main.storyboard */,
 				FB850A671D7F960D004BA713 /* Assets.xcassets */,
 				FB850A691D7F960D004BA713 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				846691A51D824D7800B47F40 /* xinVC.swift in Sources */,
 				FB850A631D7F960D004BA713 /* ViewController.swift in Sources */,
+				846691A71D8250F100B47F40 /* okViewController.swift in Sources */,
 				FB850A611D7F960D004BA713 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
